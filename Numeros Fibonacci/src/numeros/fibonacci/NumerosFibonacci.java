@@ -27,11 +27,12 @@ public class NumerosFibonacci {
          
         System.out.print("Favor de ingresar un numero: ");
         numero = leer.nextInt();
-            
+        
+        NumerosFibonacci.add(0);
         NumerosFibonacci.add(1);
         NumerosFibonacci.add(2);
         
-         for(int i =3;i<=numero;i++){
+         for(int i =3;i<=numero-1;i++){
             n2= n1 + n2;
             n1= n2 - n1;
             n3=n1 + n2;
