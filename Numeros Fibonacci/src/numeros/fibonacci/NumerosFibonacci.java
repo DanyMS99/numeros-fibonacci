@@ -19,7 +19,7 @@ public class NumerosFibonacci {
         
     Scanner sc = new Scanner(System.in);
     int numero,n,n3;
-    int n1=1;
+    int n1=0;
     int n2=1;
     ArrayList NumerosFibonacci = new ArrayList();
     
